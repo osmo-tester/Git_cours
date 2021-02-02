@@ -1,6 +1,26 @@
-h1
-{
-    color: blueviolet;
+h1 {
+    color: rgb(45, 207, 186);
     text-size-adjust: 40px;
+
+
+}
+div {
+
+    color: blue;
+    font-size: 15px;
+    font-style: italic;
+}
+.predators{
+    color: rgb(226, 8, 52);
+    font-size: 20px;
+}
+.white_fish{
+    color: rgb(112, 112, 241);
+    font-size: 20px;
+
+}
+.seldom_fish {
+    color: rgb(112, 241, 219);
+    font-size: 20px;
 
 }
