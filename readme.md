@@ -1,3 +1,1 @@
-#Git and Github Course
-
-Crash course for Git
+#Этот сайт создается для определения моего уровня владения базовыми знаниями по: HTML, CSS, JS ну и Git соответственно.
