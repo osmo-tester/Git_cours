@@ -1,26 +1,129 @@
-h1 {
-    color: rgb(45, 207, 186);
-    text-size-adjust: 40px;
-
-
+body {
+  margin: 0;
+  font-family: "Monserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1, 6;
 }
-div {
-
-    color: blue;
-    font-size: 15px;
-    font-style: italic;
+*,
+* :after,
+* ::before {
+  box-sizing: border-box;
 }
-.predators{
-    color: rgb(226, 8, 52);
-    font-size: 20px;
-}
-.white_fish{
-    color: rgb(112, 112, 241);
-    font-size: 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(219, 206, 189);
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 300;
 
-}
-.seldom_fish {
-    color: rgb(112, 241, 219);
-    font-size: 20px;
+  text-transform: uppercase;
 
+  text-align: center;
+}
+.text {
+  color: cornsilk;
+  margin: 7%;
+}
+/*Container*/
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+/*Intro*/
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: url("../osmo_project_1/images/1-intro.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.intro_inner {
+  margin: 0 auto;
+  text-align: center;
+}
+/*Header*/
+.header {
+  padding: 30px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header_logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(247, 230, 230);
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Nav*/
+
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.nav_link {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+
+  transition: color 0.2s linear;
+}
+.nav_link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+
+  background-color: green;
+  opacity: 0;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+
+  transition: opacity 0.1s linear;
+}
+.nav_link:hover {
+  color: green;
+}
+
+.nav_link:hover:after {
+  opacity: 1;
+}
+/*Button*/
+.btn {
+  margin: 7% auto;
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 30px;
+
+  border: 3px solid white;
+
+  font-size: 13px;
+  font-weight: 300;
+  color: thistle;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #680c0c;
+
+  transition: color 0.1s linear color 0.1s linear;
 }
